@@ -1,0 +1,33 @@
+{
+  "name": "sharingan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "local.app.js",
+  "scripts": {
+    "init-all": "npm install && npm run create-cert && cd ../client && npm install",
+    "create-cert": "node mkcert.js",
+    "start": "nodemon --inspect ./local.app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.55.0",
+    "@aws-sdk/client-s3": "^3.56.0",
+    "aws-serverless-express": "^3.4.0",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.3",
+    "mssql": "^8.0.2",
+    "passport": "^0.5.2",
+    "passport-azure-ad": "^4.3.1",
+    "pg": "^8.7.3",
+    "pg-copy-streams": "^6.0.2",
+    "stream": "0.0.2"
+  },
+  "devDependencies": {
+    "mkcert": "^1.5.0",
+    "lorem-ipsum": "^2.0.8",
+    "nodemon": "^2.0.15"
+  }
+}

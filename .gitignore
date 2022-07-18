@@ -1,0 +1,10 @@
+node_modules
+.serverless
+package-lock.json
+dist
+localfiles
+/build
+/package
+deployment
+server.crt
+server.key
