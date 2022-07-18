@@ -1,5 +1,5 @@
 ---
-# Sharingan 2.0
+# Svelte Skeleton By Spidey
 ---
 
 ## Initial setup
