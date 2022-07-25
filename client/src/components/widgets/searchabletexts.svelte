@@ -22,3 +22,9 @@
 </script>
 
 <div>{@html highlightedtexts}</div>
+
+<style>
+    div{
+        margin-bottom:50px;
+    }
+</style>

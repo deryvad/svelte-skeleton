@@ -17,6 +17,6 @@ exports.handler = async function (event, context) {
 
     return {
       statusCode: 200,
-      body: lorem.generateSentences(parseInt(200)),
+      body: lorem.generateSentences(parseInt(150)),
     };
   }
