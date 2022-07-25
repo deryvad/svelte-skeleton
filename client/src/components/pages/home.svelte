@@ -8,7 +8,7 @@
     let matchcount = 0;
     
     const randomizetexts = async () => {
-        randomtxt = await ajax.get(`/api/web/randomtexts/${count}`);
+        randomtxt = await ajax.get(`/.netlify/functions/randomtext`);
     }
     const setmatchcount = (event) => {
         matchcount = event.detail;

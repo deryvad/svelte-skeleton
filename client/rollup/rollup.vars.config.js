@@ -1,6 +1,6 @@
 let variables = {
     local: {
-        serviceurl: 'https://localhost:5000'
+        serviceurl: ''
     }
 }
 
