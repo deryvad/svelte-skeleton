@@ -2,6 +2,10 @@
 # Svelte Skeleton By Spidey
 ---
 
+## Deployed to Netlify
+
+https://sometextfinder.netlify.app/
+
 ## Initial setup
 
 #### Install _serverless_ globally.
