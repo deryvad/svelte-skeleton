@@ -1,7 +1,8 @@
 {
   "scripts": {
     "install-rollup": "npm i -D rollup",
-    "start": "rollup -c rollup/rollup.local.config.js -w"
+    "start": "rollup -c rollup/rollup.local.config.js -w",
+    "build": "rollup -c rollup/rollup.config.js"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.2",
